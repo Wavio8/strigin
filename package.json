@@ -80,5 +80,10 @@
     "lint:js": "eslint --ext .js src/js/",
     "stats": "webpack --config configuration/webpack.prod.config.js --mode=production --json > dist/stats.json && webpack-bundle-analyzer dist/stats.json"
   },
-  "target": "web"
+  "target": "web",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "aos": "^2.3.4",
+    "smoothscroll-polyfill": "^0.4.4"
+  }
 }

@@ -1,0 +1,9 @@
+/* montserrat-100 - latin_cyrillic */
+@font-face {
+  font-family: "Igra Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/src/fonts/igra_sans/IgraSans.otf");
+  /* IE9 Compat Modes */
+  src: local("Igra Sans"), url("/src/fonts/igra_sans/IgraSans.otf") format("opentype");
+}

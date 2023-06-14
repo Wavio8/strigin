@@ -1,0 +1,76 @@
+body {
+  font-family: $font-family-main;
+  color: $color-font-main;
+  font-size: $font-size-small;
+  @include hidden-scrollbars;
+  background: $color-background;
+}
+body.overflow {
+  overflow: hidden;
+}
+
+a {
+  color: $color-font-second;
+  &:hover {
+    @include colorfull($color-main);
+  }
+}
+
+b {
+  font-weight: 700;
+}
+h1,
+h2 {
+  font-size: $font-headline;
+  font-family: $font-family-second;
+  font-weight: 700;
+  line-height: 95%;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  @media (max-width: $breakpoint-l) {
+    // font-size: $font-size-big;
+  }
+  @media (max-width: $breakpoint-m) {
+    font-size: $font-size-medium;
+  }
+  @media (max-width: $breakpoint-s) {
+    font-size: 42px;
+  }
+}
+h2 {
+  font-size: calc($font-headline - 10px);
+  @media (max-width: $breakpoint-m) {
+    font-size: $font-size-medium;
+  }
+  @media (max-width: $breakpoint-s) {
+    font-size: 42px;
+  }
+}
+h3 {
+  font-size: $font-sub-headline;
+  font-family: $font-family-second;
+  font-weight: 700;
+
+  margin-bottom: 30px;
+
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+
+  @media (max-width: $breakpoint-m) {
+    font-size: $font-size-medium;
+  }
+  @media (max-width: $breakpoint-s) {
+    font-size: 32px;
+  }
+}
+.sub-headline {
+  font-family: $font-family-second;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: $font-size-medium;
+}
+mark {
+  color: $color-main;
+  background: none;
+}
