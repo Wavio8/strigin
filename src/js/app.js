@@ -8,6 +8,7 @@
 // import selectorInit from "./selector";
 // import filterInit from "./filter";
 import "../scss/app.scss";
+import componentsInit from "./components";
 
 const start = () => {
   // slidersInit();
@@ -21,6 +22,9 @@ const start = () => {
   // toUpInit();
   // const menu = burgerMenuItit();
   // menu.open();
+
+
+  componentsInit();
 
   console.log("loaded");
 };
