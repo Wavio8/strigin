@@ -1,4 +1,4 @@
-// import slidersInit from "./splide";
+import slidersInit from "./splide";
 // import clickInit from "./click";
 
 // import burgerMenuItit from "./menu";
@@ -11,7 +11,7 @@ import "../scss/app.scss";
 import componentsInit from "./components";
 
 const start = () => {
-  // slidersInit();
+  slidersInit();
   // popupInit();
   // openInit();
   // closeInit();

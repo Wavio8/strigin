@@ -1,16 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-  </head>
-  <body>
-    ${require('/src/templates/components/test.html')}hello world
-    <img src="/images/wp.png" alt="" />
+</head>
+<body>
+<div class="serv__banner-1 serv-block">
+    <div class="serv__banner-text">
+        <p class="banner-text__title">
+            Помощь экспертов
+            по приёмке квартиры
+            в новостройке
+            в Санкт-Петербурге
+        </p>
+        <ul class="serv__banner-ul">
+            <li>Проводим осмотр и фиксируем строительные нарушения</li>
+            <li>Вы получаете официальный акт осмотра с выявленными дефектами для предъявления застройщику</li>
+        </ul>
 
-    ${require('/src/templates/components/accordion.html')}hello world
+    </div>
+    <img class="serv-banner__deign" alt="" src="/images/serv-icon-design.svg">
+    <img src="/images/service-ph1.png" class="serv__banner-img" alt="">
+    <img src="/images/mock-up-poster.svg" class="mock-up-img" alt="">
 
-  </body>
+
+</div>
+<div class="serv-anchor serv-block">
+    <a href="#">Что входит</a>
+    <a href="#">Что отдадим</a>
+    <a href="#">Цена</a>
+    <a href="#">Отзывы</a>
+    <a href="#">Ответы</a>
+
+</div>
+<div class="serv-transfer serv-block">
+    <a href="#" class="transfer__item transfer__item-left">
+        Ремонт квартир
+        <img class="arrow-transfer-left" alt="" src="/images/arrow-transfer.svg">
+    </a>
+
+    <a href="#" class="transfer__item transfer__item-right">
+        Дизайн Интерьеров
+        <img class="arrow-transfer-right" alt="" src="/images/arrow-transfer.svg">
+    </a>
+
+</div>
+<div class="serv-double serv-block">
+    <div class="double-left">
+        <img class="serv-double__deign" alt="" src="/images/serv-icon-design.svg">
+        <img class="serv-double__photo" src="/images/double-ph2.png">
+    </div>
+    <div class="double-right">
+        <img class="double-quote" src="/images/serv-quote.svg">
+        <div class="double-text">
+            Квартиру могут сдать с косяками
+            в 9&nbspиз&nbsp10 случаев: например, с кривым полом, негерметичными окнами
+            и отсутствием вентиляции
+        </div>
+        <div class="double-title">
+            Мы проследим, чтобы все было согласно ГОСТу и не только...
+        </div>
+        <a href="#">Посмотреть истории наших клиентов</a>
+    </div>
+
+</div>
+<div class="serv-function serv-block">
+    <div class="serv-function__title">
+        Что входит <span> в приёмку квартиры?</span>
+    </div>
+    <div class="serv-function__three">
+        <div class="function__three-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-1-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Электрика</div>
+            <div class="serv-function__text-item">
+                Более 200 проверка наличия напряжения и заземления в розетках и выводов на освещение, электрощиток:
+                обследование автоматов на работоспособность и правильное подключение. м2 полезной площади
+            </div>
+        </div>
+        <div class="function__three-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-2-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Сантехника</div>
+            <div class="serv-function__text-item">Осмотр инженерных сетей, ГВС, ХВС, выявление повреждений раковины,
+                унитаза, ванны и душевой кабины, фановых труб, в том числе протечек, проверка настенной и напольной
+                плитки на присутствие пустот, уступов, сколов, качество швов
+            </div>
+        </div>
+        <div class="function__three-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-3-func.svg" class="icon-function" alt="">
+            </div>
+
+            <div class="serv-function__title-item">Остекление</div>
+            <div class="serv-function__text-item">Осмотр на наличие царапин, сколов, трещин, окалин на стеклопакетах,
+                профилей ПВХ и фасадного остекления. Проверка регулировки створок, наличие всех уплотнительных резинок,
+                а также на правильность установки оконных и балконных блоков
+            </div>
+
+        </div>
+
+    </div>
+    <div class="serv-function__four">
+        <div class="function__four-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-1-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Геометрия</div>
+            <div class="serv-function__text-item">
+                Отклонение стен от вертикали и горизонтали, уровня пола, всех дверей от вертикали, радиаторов от
+                горизонтали, оконных и балконных блоков
+            </div>
+        </div>
+        <div class="function__four-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-1-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Геометрия</div>
+            <div class="serv-function__text-item">
+                Отклонение стен от вертикали и горизонтали, уровня пола, всех дверей от вертикали, радиаторов от
+                горизонтали, оконных и балконных блоков
+            </div>
+        </div>
+        <div class="function__four-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-1-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Геометрия</div>
+            <div class="serv-function__text-item">
+                Отклонение стен от вертикали и горизонтали, уровня пола, всех дверей от вертикали, радиаторов от
+                горизонтали, оконных и балконных блоков
+            </div>
+        </div>
+        <div class="function__four-item">
+            <div class="func-block__icon">
+                <img src="/images/icon-1-func.svg" class="icon-function" alt="">
+            </div>
+            <div class="serv-function__title-item">Геометрия</div>
+            <div class="serv-function__text-item">
+                Отклонение стен от вертикали и горизонтали, уровня пола, всех дверей от вертикали, радиаторов от
+                горизонтали, оконных и балконных блоков
+            </div>
+        </div>
+    </div>
+    <div class="serv-function__subtitle">
+        Мы точно знаем, как принять квартиру у застройщика!
+    </div>
+</div>
+<div class="serv-document serv-block">
+    <div class="serv-document__bg-img">
+        <img src="/images/doc-serv.png" class="document__bg-img" alt="">
+        <img src="/images/shadow-document.png" class="document__bg-shadow" alt="">
+    </div>
+    <div class="serv-document__text">
+        <div class="serv-document__title">
+            По итогу приёмки квартиры
+            наши эксперты направит Вам
+            <span>
+            акт осмотра
+                </span>
+        </div>
+        <p>По итогу приёмки квартиры в Санкт-Петербурге наш приёмщик отправит Вам акт осмотра квартиры в электронном
+            виде (в формате PDF), в котором он укажет все допущенные подрядчиком нарушения при строительных и ремонтных
+            работах.
+            <br><br>Акт осмотра (дефектную ведомость) эксперт направит Вам в мессенджер либо
+            на электронную почту. Затем, в соответствии с 214-ФЗ, застройщик обязан устранить все допущенные нарушения в
+            разумный срок, составляющий не более 45 дней согласно Закона О Защите прав Потребителей.</p>
+        <div class="serv__document-block">
+            <img src="/images/pdf-img.png" class="serv__pdf-img" alt="">
+            <p>Скачать пример</p>
+
+
+        </div>
+    </div>
+
+</div>
+
+<div style="width:560px; margin:0 auto; margin-bottom: 100px;height:800px;overflow:hidden;position:relative;">
+    <iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+            src="https://yandex.ru/maps-reviews-widget/164922452268?comments"></iframe>
+    <a href="https://yandex.ru/maps/org/avdashkov_strigin/164922452268/" target="_blank"
+       style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Авдашков
+        Стригин на карте Санкт‑Петербурга и Ленинградской области — Яндекс Карты
+    </a>
+</div>
+
+<div class="serv-sliders__design serv-block">
+    <div class="serv-sliders__title">
+        Мало просто сказать, мы покажем! <br>
+        <span> Наши дизайны </span> говорят сами за себя
+    </div>
+    <div class="sliders__design-block">
+        <div class="sliders__design-block-item">
+            <section class="splide splide-big sliders__design-item" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-2.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-2.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="splide splide-small"
+                     aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <p class="sliders__design-item-title">
+                <span> Дизайнерский ремонт</span> в квартире
+                ЖК&nbsp;«Четыре&nbsp;горизонта»
+            </p>
+            <div class="sliders__design-item-desc">
+                <p>ЖК «Четыре горизонта»</p>
+                <div class="sliders__design-desc-all">
+                    <p>69 м2</p>
+                    <p>20 дн.</p>
+                    <p>3 комнаты</p>
+                </div>
+            </div>
+        </div>
+        <div class="sliders__design-block-item">
+            <section class="splide splide-big sliders__design-item" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-2.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-2.png" alt=""></li>
+                        <li class="splide__slide"><img src="/images/serv-slider-1.png" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="splide splide-small"
+                     aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-2.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/serv-slider-1.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <p class="sliders__design-item-title">
+                <span> Дизайнерский ремонт</span> в квартире
+                ЖК&nbsp;«One&nbsp;Trinity&nbsp;Place»
+            </p>
+            <div class="sliders__design-item-desc">
+                <p>ЖК «Четыре горизонта»</p>
+                <div class="sliders__design-desc-all">
+                    <p>69 м2</p>
+                    <p>20 дн.</p>
+                    <p>3 комнаты</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+<div class="serv-block__form-img serv-block-small">
+    <div class="block-form-img__subtitle">
+        Действительно качественная приёмка с первого раза
+    </div>
+    <div class="block-form-img__title">
+        Без траты вашего времени и нервов
+    </div>
+    <form class="serv-form_img">
+        <div class="form_img-line">
+            <img src="/images/design-serv-form.svg" class="design-serv-form" alt="">
+            <div class="serv-form_img-left">
+                <div class="serv-form_img-title">
+                    Вам куда удобнее, чтобы мы выслали вам предложение:
+                </div>
+                <div class="serv-form_img-links">
+                    <a href="#" class="form_img-tg">
+                        <img src="/images/tg-serv1.svg" alt="">
+                        <div class="form_img-text-tg">Telegram</div>
+                    </a>
+                    <a href="#" class="form_img-whatsup">
+                        <img src="/images/wa2-serv.svg" alt="">
+                        <div class="form_img-text-wa">WhatsApp</div>
+                    </a>
+                </div>
+                <div class="serv-form_img-block-btn">
+
+                    <input type="text" name="name" id="cons-name" value="" class="input-form_img"
+                           placeholder="Укажите номер аккаунта" required="">
+                    <button type="submit" class="btn-form_img">Отправить</button>
+                </div>
+                <label class="checkbox-label">
+                    <input class="checkbox" type="checkbox" name="return">
+                    <span class="checkbox-title">  Я согласен на <a href="pro-obrabotku-personal-nyh-dannyh"
+                                                                    rel="external" target="_blank">обработку персональных данных</a></span>
+                </label>
+            </div>
+            <img class="serv-form_img-right" src="/images/serv-form-ph1.png" alt="">
+
+
+        </div>
+
+
+    </form>
+
+</div>
+
+<div class="serv-gradient-block serv-block-small">
+    <div class="gradient__absolute"></div>
+    <img class="serv-gradient-block__img" alt="" src="/images/gradient-ph1.png">
+    <div class="gradient-block__text">
+
+        <div class="serv-gradient-block__title">
+            А что если застройщик откажется <span> возмещать убытки</span>
+            или исправлять ситуацию?
+        </div>
+        <div class="serv-gradient-block__subtitle">
+            Значит мы готовим документы для суда!
+        </div>
+        <div class="serv-gradient-block__text">
+            Если застройщик откажется устранять замечания, внесенные в Акт Осмотра, мы готовы подготовить строительную
+            экспертизу со сметой
+            на устранение всех допущенных нарушений, а также оказать юридическое сопровождение в суде.
+        </div>
+    </div>
+</div>
+<div class="serv-cost serv-block">
+    <div class="serv-cost__title">
+        Сколько это <span>стоит</span>?
+    </div>
+    <div class="serv__el-table-cost serv__el-table-cost-1">
+        <div class="serv__el-table-name">
+            Профессиональная приёмка квартиры с отделкой
+        </div>
+        <div class="serv__el-table-price">
+            60 руб./м²
+        </div>
+
+    </div>
+    <div class="serv__el-table-cost">
+        <div class="serv__el-table-name">
+            Чертёж квартиры в Autocad
+        </div>
+        <div class="serv__el-table-price">
+            от 2000 ₽
+        </div>
+
+    </div>
+    <div class="serv__el-table-cost">
+        <div class="serv__el-table-name">
+            Кадастровый замер квартиры
+        </div>
+        <div class="serv__el-table-price">
+            от 100 руб./м²
+        </div>
+
+    </div>
+    <div class="serv__el-table-cost">
+        <div class="serv__el-table-name">
+            Профессиональная приёмка квартиры без отделки
+
+        </div>
+        <div class="serv__el-table-price">
+            60 руб./м²
+        </div>
+
+    </div>
+    <div class="serv__el-table-cost">
+        <div class="serv__el-table-name">
+            Повторная приёмка квартиры после исправления
+        </div>
+        <div class="serv__el-table-price">
+            2000 ₽
+        </div>
+
+    </div>
+    <button class="serv-cost-btn">Показать еще</button>
+</div>
+<div class="serv-type serv-block">
+    <div class="serv-type__title">
+        Давайте, мы сориентируем вас <span> по стоимости</span>
+    </div>
+    <div class="serv-type__blocks">
+        <div class="serv-type__block-item">
+            <div class="serv-type__block-title">
+                <span>Экспресс</span> дизайн-проект
+            </div>
+            <div class="serv-type__block-text">
+                Подойдет вам для того, чтобы быстро создать визуальную концепцию проекта и получить базовые чертежи
+                для ремонтных работ
+            </div>
+            <ul>
+                <li>Обмерный план</li>
+                <li>Планировочные решения (до 10 вариантов)</li>
+                <li>План демонтажа</li>
+                <li>План монтажа</li>
+            </ul>
+            <div class="all">
+                Показать все
+            </div>
+            <div class="cost__black">
+                от 20 дней
+            </div>
+            <div class="cost__blue">
+                от 2 000 ₽/м2
+            </div>
+            <a href="#" class="send">Оставить заявку</a>
+        </div>
+        <div class="serv-type__block-item">
+            <div class="serv-type__block-title">
+                <span>Экспресс</span> дизайн-проект
+            </div>
+            <div class="serv-type__block-text">
+                Подойдет вам для того, чтобы быстро создать визуальную концепцию проекта и получить базовые чертежи
+                для ремонтных работ
+            </div>
+            <ul>
+                <li>Обмерный план</li>
+                <li>Планировочные решения (до 10 вариантов)</li>
+                <li>План демонтажа</li>
+                <li>План монтажа</li>
+            </ul>
+            <div class="all">
+                Показать все
+            </div>
+            <div class="cost__black">
+                от 20 дней
+            </div>
+            <div class="cost__blue">
+                от 2 000 ₽/м2
+            </div>
+            <a href="#" class="send">Оставить заявку</a>
+        </div>
+        <div class="serv-type__block-item">
+            <div class="serv-type__block-title">
+                <span>Экспресс</span> дизайн-проект
+            </div>
+            <div class="serv-type__block-text">
+                Подойдет вам для того, чтобы быстро создать визуальную концепцию проекта и получить базовые чертежи
+                для ремонтных работ
+            </div>
+            <ul>
+                <li>Обмерный план</li>
+                <li>Планировочные решения (до 10 вариантов)</li>
+                <li>План демонтажа</li>
+                <li>План монтажа</li>
+            </ul>
+            <div class="all">
+                Показать все
+            </div>
+            <div class="cost__black">
+                от 20 дней
+            </div>
+            <div class="cost__blue">
+                от 2 000 ₽/м2
+            </div>
+            <a href="#" class="send">Оставить заявку</a>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
 </html>
