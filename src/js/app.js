@@ -9,9 +9,13 @@ import slidersInit from "./splide";
 // import filterInit from "./filter";
 import "../scss/app.scss";
 import componentsInit from "./components";
+import showCosts from "./showCosts";
+import showAllType from "./showAllType";
 
 const start = () => {
   slidersInit();
+  showCosts();
+  showAllType();
   // popupInit();
   // openInit();
   // closeInit();

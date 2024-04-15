@@ -49,6 +49,12 @@ const slidersInit = () => {
         arrows: false,
         fixedHeight: 315,
         pagination: false,
+        breakpoints: {
+          979: {
+            fixedHeight: 250,
+          },
+        }
+
       });
       const splideSmall = new Splide(slidersSmall[i], {
         fixedWidth: 96,
@@ -58,6 +64,21 @@ const slidersInit = () => {
         arrows: false,
         isNavigation: true,
         pagination: false,
+        breakpoints: {
+          1440: {
+            fixedWidth: 80,
+            fixedHeight: 65,
+          },
+          1240: {
+            fixedWidth: 70,
+            fixedHeight: 50,
+          },
+          979: {
+            fixedWidth: "16%",
+            fixedHeight: 50,
+            gap: "5%",
+          },
+        },
       });
       console.log(splideSmall);
       if (slidersBig[i].classList.contains("_ms-cp")) {
