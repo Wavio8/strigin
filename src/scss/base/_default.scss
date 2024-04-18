@@ -129,6 +129,10 @@ mark {
   text-align: left;
 
 }
+.func-block__icon img{
+  max-height: 84px;
+}
+
 
 .serv__banner-ul li {
 
@@ -354,6 +358,7 @@ mark {
   line-height: 31.99px;
   margin-top: 36px;
   text-align: center;
+  padding: 0 10%;
 }
 
 .serv-function__three {
@@ -378,8 +383,8 @@ mark {
 
 .function__four-item {
   flex: 1;
-  min-height: 334px;
-  padding: 43px 24px 34px 45px;
+  //min-height: 334px;
+  padding: 43px 18px 46px 45px;
   background: rgba(243, 243, 243, 1);
 }
 
@@ -409,11 +414,37 @@ mark {
 .func-block__icon {
   min-height: 70px;
   display: flex;
-  align-items: flex-end;
+  gap: 5px;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 28px;
 
 }
+.function__four-item-3{
+  padding-left: 34px;
+  padding-right: 20px;
+}
+.serv-function__text-item ul{
+  list-style-type: disc;
+  padding-left: 15px;
 
+}
+.function__four-item-3 .func-block__icon{
+  margin-bottom: 10px;
+}
+.function__four-item-4{
+  padding-right: 50px;
+}
+.serv-function__four-5 .func-block__icon{
+  align-items: center;
+}
+.serv-function__four-5 .function__four-item{
+  padding: 45px 45px 0 45px;
+  background: none;
+}
+.serv-function__four-5 .serv-function__text-item{
+  text-align: center;
+}
 .serv-document {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
@@ -1228,6 +1259,10 @@ mark {
     width: 95px;
     top: 25px;
   }
+  .serv-type__block-item{
+    width: 391px;
+    padding: 60px 35px;
+  }
   .serv-document{
     padding: 20px;
   }
@@ -1237,11 +1272,28 @@ mark {
   .sliders__design-block-item{
     width: 480px;
   }
+  .serv-block-small {
+    width: 1090px;
+  }
+  .gradient-block__text {
+    width: 519px;
+  }
+  .serv-form_img-title{
+    font-size: 31px;
+  }
+  .input-form_img{
+    width: 245px;
+  }
+
+
 }
 
 @media (max-width: 1240px) {
   .serv-block {
     width: 960px;
+  }
+  .serv-block-small {
+    width: 870px;
   }
   .serv__banner-1 {
 
@@ -1254,8 +1306,36 @@ mark {
     height: auto;
     width: 30%;
   }
+  .serv-form_img-right{
+    width: 40%;
+  }
+  .serv-gradient-block{
+    padding-right: 20px;
+  }
   .serv-document__text{
     width: 65%;
+  }
+  .serv-gradient-block__title{
+    font-size: 31px;
+    line-height: normal;
+  }
+  .serv-gradient-block__title span{
+    font-size: 31px;
+    line-height: normal;
+  }
+  .serv-type{
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  .yand-serv{
+    margin-bottom: 60px;
+  }
+  .serv-gradient-block__subtitle{
+    font-size: 21px;
+    line-height: normal;
+  }
+  .serv-sliders__design{
+    margin-bottom: 60px;
   }
   .document__bg-shadow {
     position: absolute;
@@ -1294,6 +1374,12 @@ mark {
   }
   .serv__document-block{
     margin-top: 10px;
+  }
+  .serv-type__block-item{
+    width: 310px;
+  }
+  .serv-type__block-title{
+    font-size: 33px;
   }
   .serv-document{
     margin-top: 60px;
@@ -1383,12 +1469,16 @@ mark {
   .serv-function__subtitle{
     font-size: 22px;
     margin-top: 30px;
+
   }
   .function__three-item{
     padding: 35px 25px;
   }
   .function__four-item{
     padding: 35px 25px;
+  }
+  .serv-cost{
+    padding: 80px 50px 80px 76px;
   }
 
 
@@ -1398,9 +1488,57 @@ mark {
   .serv-block{
     width: calc(100% - 40px);
   }
+  .serv-block-small{
+    width: calc(100% - 40px);
+  }
   .double-right {
     padding: 29px 22px;
   }
+  .serv__el-table-cost{
+    gap:5%;
+  }
+  .gradient__absolute{
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+  }
+  .form_img-line{
+    flex-wrap: wrap;
+  }
+  .serv-form_img{
+    height: 100%;
+  }
+  .form_img-line{
+    padding-bottom: 0;
+  }
+  .design-serv-form{
+    top: auto;
+    bottom: 30px;
+  }
+  .input-form_img{
+    width: 317px;
+  }
+  .serv-gradient-block__img{
+    margin: 0 auto;
+    left: auto;
+  }
+  .serv-gradient-block{
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+  .serv-cost {
+    padding: 80px 20px 80px 20px;
+  }
+  .serv__el-table-name{
+    font-size: 20px;
+  }
+  .gradient-block__text{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .double-text{
     font-size: 19px;
     line-height: 23px;
@@ -1413,6 +1551,24 @@ mark {
     gap: 10px;
   }
   .sliders__design-block-item{
+    width: 100%;
+  }
+  .serv-type__block-title{
+    line-height: 35px;
+  }
+  .serv-type__blocks{
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .serv-type__block-text{
+    margin-top: 16px;
+  }
+  .serv-type__title{
+    margin-bottom: 17px;
+    line-height: 44px;
+    font-size: 45px;
+  }
+  .serv-type__block-item{
     width: 100%;
   }
   .serv-sliders__design {
@@ -1479,6 +1635,12 @@ mark {
   .serv-anchor {
     padding: 24px 10px;
   }
+  .block-form-img__title{
+    font-size: 46px;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+
   //.serv__banner-img{
   //  order: 1;
   //}
@@ -1490,10 +1652,87 @@ mark {
   .serv-transfer{
     flex-wrap: wrap;
   }
+  .serv-function__three{
+    flex-wrap: wrap;
+  }
+  .serv-type__title{
+    margin-bottom: 17px;
+    line-height: 39px;
+    font-size: 35px;
+  }
+  .block-form-img__subtitle{
+    font-size: 27px;
+  }
+  .block-form-img__title{
+    font-size: 35px;
+  }
   .yand-serv{
     width: 95%;
     margin-bottom: 60px;
+  }
+  .serv-function__four{
+    flex-wrap: wrap;
+  }
+  .serv-function__title{
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .design-serv-form{
+    display: none;
+  }
+  .serv-function__title span{
+    line-height: normal;
+  }
 
+  .serv-function{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .serv-cost__title{
+    text-align: center;
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .serv-cost__title span{
+    text-align: center;
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .serv-form_img-right{
+    width: 90%;
+  }
+  .serv-form_img-block-btn{
+    gap: 20px;
+
+  }
+  .form_img-line{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .input-form_img{
+    width: 100%;
+  }
+  .form_img-text-tg{
+    font-size: 14px;
+  }
+  .form_img-text-wa{
+    font-size: 14px;
+  }
+  .btn-form_img{
+    width: 100%;
+  }
+  .serv-form_img-left{
+    width: 100%;
+  }
+  .serv-cost serv-block{
+    padding: 60px 20px;
+  }
+  .serv__el-table-price{
+    font-size: 21px;
+  }
+  .serv__el-table-price{
+    display: block;
+    text-wrap: nowrap;
   }
   .transfer__item{
     width: 100%;
