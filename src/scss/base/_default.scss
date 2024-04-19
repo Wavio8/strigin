@@ -760,7 +760,7 @@ mark {
   padding: 53px 50px 58px 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
 }
 
@@ -1307,7 +1307,7 @@ mark {
     width: 30%;
   }
   .serv-form_img-right{
-    width: 40%;
+    width: 300px;
   }
   .serv-gradient-block{
     padding-right: 20px;
@@ -1826,6 +1826,19 @@ mark {
   }
   .transfer__item{
     font-size: 17px;
+  }
+  .form_img-tg{
+    padding: 5px;
+  }
+  .form_img-whatsup{
+    padding: 5px;
+  }
+  .serv__el-table-name{
+    font-size: 16px;
+    line-height: normal;
+  }
+  .serv__el-table-price{
+    font-size: 18px;
   }
 
 }
